@@ -1,10 +1,6 @@
 # Importing queue module for minimum priority queue
 import queue
 
-# Define start and goal node name
-start_node = 'S'
-goal_node = 'D'
-
 # Define the tree
 tree = {
     'S': [['A', 1], ['B', 4]],
@@ -13,6 +9,9 @@ tree = {
     'C': [['D', 3]],
 }
 
+# Define start and goal node name
+start_node = 'S'
+goal_node = 'D'
 
 # Define the dictionary heuristic values for each node
 heuristic_list = {'S': 7, 'A': 6, 'B': 3, 'C': 1, 'D': 0}
